@@ -12,9 +12,9 @@
     <style>
 .center {
   margin: auto;
-  width:50%;
+  width:40%;
  text-align:center;
-  padding: 10px;
+  padding: 32px;
 }
 </style>
   </head>
@@ -42,29 +42,24 @@
 							    <option>FourWheeler</option>
 							    </select>
                       		</div>
-                            <div class="form-group">
-  								<label for="CheckInDate" class="text-info">CheckInDate</label>
- 								<input type="date" id="CheckInDate" name="CheckInDate" class="form-control">
- 						 	</div>
-                            <div class="form-group">
-                                <label for="appt" class="text-info">CheckInTime</label>
- 							 	<input type="time" id="appt" name="appt" class="form-control">
-                                </div>
-                            <div class="form-group">
-  								<label for="CheckOutDate" class="text-info">CheckOutDate</label>
- 								<input type="date" id="CheckOutDate" name="CheckOutDate" class="form-control">
- 						 	</div>
- 						 	<div class="form-group">
-                                <label for="appt" class="text-info">CheckOutTime</label>
- 							 	<input type="time" id="appt" name="appt" class="form-control">
-                                </div>
+                      		<div class="form-group">
+                      		<label class="text-info" for="Date Time">CheckIn Date & Time</label>
+                      		<input type="datetime-local" id="CheckIn Date & Time" name="CheckIn Date & Time" class="form-control">
+                      		</div>
+                           
+                           <div class="form-group">
+                      		<label class="text-info" for="Date Time">CheckOut Date & Time</label>
+                      		<input type="datetime-local" id="CheckOut Date & Time" name="CheckOut Date & Time" class="form-control">
+                      		</div>
                             <div class="form-group">
                                  <input type="submit" name="submit" class="btn btn-info btn-md" value="ADD"> 
                             </div>
                             
                         </form>
                     </div>
+                    </div>
                 </div>
+                
 
       <div align="center"><footer class="center">
         <div class="center">
