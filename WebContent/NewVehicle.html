@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>NewVehicle-Park Smart</title>
+    <style>
+.center {
+  margin: auto;
+  width: 30%;
+ text-align:center;
+  padding: 10px;
+}
+</style>
+  </head>
+ <body>
+
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+      <!-- <a class="my-0 mr-md-auto font-weight-normal">Park Smart</a> -->
+            <a class="my-0 mr-md-auto font-weight-normal" href="file:///C:/Users/lenovo/workspace/SmartParking/WebContent/Home.html">Park Smart</a>
+      
+      <a class="btn btn-outline-primary" href="file:///C:/Users/lenovo/workspace/SmartParking/WebContent/Login.html">Logout</a>
+    </div>
+
+    <div class="center">
+        
+                    <div>
+                        <form id="login-form" class="form" action="" method="post">
+                            <h3 class="text-center text-info">ADD NEW VEHICLE</h3>
+                            <div class="form-group">
+                                <label for="username" class="text-info">Enter Vehicle Number</label><br>
+                                <input type="text" name="username" id="VehicleNumber" placeholder="eg:KA05X7865" class="form-control">
+                            </div>
+                            <label class="text-info" for="Type">Enter Vehicle Type</label>
+  								<div class="form-group">
+  								<select class="form-control" id="vehicleType" placeholder="Two Wheeler" name="VehicleType">
+							    <option>Two Wheeler</option>
+							    <option>Four Wheeler</option>
+							    </select>
+                      		</div>
+                         
+                            <div class="form-group">
+                                <label for="VehicleModel" class="text-info">Enter Vehicle Model Name</label><br>
+                                <input type="text" name="VehicleModel" id="VehicleModel" placeholder="eg:ThunderBird 350X" class="form-control">
+                            </div>
+                            <div class="form-group">
+  								<label for="RegistrationDate" class="text-info">Enter Registration Date</label>
+ 								<input type="date" id="RegistrationDate" name="RegistrationDate"  class="form-control">
+ 						 	</div>
+ 						 	
+ 						 	<div class="button" align="center">
+                            <a type="button" href="file:///C:/Users/lenovo/workspace/SmartParking/WebContent/Vehicle.html" class="button left btn btn-danger" "button">Cancel</a>
+                            
+                               <!--  <input type="submit" name="submit" class="btn btn-info btn-md" value="ADD"> -->
+                                 <a href="file:///C:/Users/lenovo/workspace/SmartParking/WebContent/Vehicle.html" class="btn btn-info role" "button">ADD</a> 
+                            </div>
+                            
+                        </form>
+                    </div>
+                </div>
+
+      <div align="center"><footer class="center">
+        <div class="center">
+          <div class="col-12 col-md">
+          <small class="d-block mb-3 text-muted">@copyright 2020</small>
+          </div>
+          </div>
+          </footer>
+          </div>
+    
+</body>
+
+</html>

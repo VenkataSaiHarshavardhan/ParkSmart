@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>NewParking-Park smart</title>
+    <style>
+.center {
+  margin: auto;
+  width:50%;
+ text-align:center;
+  padding: 10px;
+}
+</style>
+  </head>
+ <body>
+
+   <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+      <!-- <a class="my-0 mr-md-auto font-weight-normal">Park Smart</a> -->
+            <a class="my-0 mr-md-auto font-weight-normal" href="file:///C:/Users/lenovo/workspace/SmartParking/WebContent/Home.html">Park Smart</a>
+     <a class="btn btn-outline-primary" href="file:///C:/Users/lenovo/workspace/SmartParking/WebContent/Login.html">Logout</a>
+    </div>
+
+    <div class="center">
+        
+                    <div>
+                        <form id="login-form" class="form" action="" method="post">
+                            <h3 class="text-center text-info">ADD NEW PARKING</h3>
+                            <div class="form-group">
+                                <label for="username" class="text-info">Enter Vehicle Number</label><br>
+                                <input type="text" name="username" id="VehicleNumber" placeholder="eg:KA05A5670" class="form-control">
+                            </div>
+                             <label class="text-info" for="Type">Enter Vehicle Type</label>
+  								<div class="form-group">
+  								<select class="form-control" id="vehicletype" placeholder="Two Wheeler" name="VehicleType">
+							    <option>Two Wheeler</option>
+							    <option>FourWheeler</option>
+							    </select>
+                      		</div>
+                            <div class="form-group">
+  								<label for="CheckInDate" class="text-info">CheckInDate</label>
+ 								<input type="date" id="CheckInDate" name="CheckInDate" class="form-control">
+ 						 	</div>
+                            <div class="form-group">
+                                <label for="appt" class="text-info">CheckInTime</label>
+ 							 	<input type="time" id="appt" name="appt" class="form-control">
+                                </div>
+                            <div class="form-group">
+  								<label for="CheckOutDate" class="text-info">CheckOutDate</label>
+ 								<input type="date" id="CheckOutDate" name="CheckOutDate" class="form-control">
+ 						 	</div>
+ 						 	<div class="form-group">
+                                <label for="appt" class="text-info">CheckOutTime</label>
+ 							 	<input type="time" id="appt" name="appt" class="form-control">
+                                </div>
+                            <div class="form-group">
+                                 <input type="submit" name="submit" class="btn btn-info btn-md" value="ADD"> 
+                            </div>
+                            
+                        </form>
+                    </div>
+                </div>
+
+      <div align="center"><footer class="center">
+        <div class="center">
+          <div class="col-12 col-md">
+          <small class="d-block mb-3 text-muted">@copyright 2020</small>
+          </div>
+          </div>
+          </footer>
+          </div>
+   
+    
+</body>
+
+</html>
