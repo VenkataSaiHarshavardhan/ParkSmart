@@ -25,8 +25,8 @@
  
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
       <!-- <a class="my-0 mr-md-auto font-weight-normal">Park Smart</a> -->
-            <a class="my-0 mr-md-auto font-weight-normal" href="file:///C:/Users/lenovo/workspace/SmartParking/WebContent/Home.html">Park Smart</a>
-      <a class="btn btn-outline-primary" href="file:///C:/Users/lenovo/workspace/SmartParking/WebContent/Login.html">Logout</a>
+            <a class="my-0 mr-md-auto font-weight-normal" href="Home.html">Park Smart</a>
+      <a class="btn btn-outline-primary" href="Login.html">Logout</a>
     </div>
 
 
@@ -40,8 +40,8 @@
         <th>Vehicle Number</th>
         <th>Vehicle Type</th>
         <th>CheckIn Date & Time</th>
-        <th>CheckOut Date & Time</th>
-        <th>CheckOut Status</th>
+        <th>Checkout Date & Time</th>
+        <th>Checkout Status</th>
         <th></th>
       </tr>
     </thead>
@@ -51,7 +51,7 @@
         <td>Four Wheller</td>
         <td>01/12/2020 10:30AM</td>
         <td>01/12/2020 03:20PM</td>
-        <td>Checked Out</td>
+        <td>Checked out</td>
       </tr>
       <tr>
         <td>AP31BH3014</td>
@@ -59,7 +59,7 @@
         <td>04/24/2018 11:05AM</td>
         <td>-</td>
         <td><button type="button" data-toggle="modal" data-target="#myModal">
-    CheckOut
+    Checkout
   </button>
 
   <!-- The Modal -->
@@ -69,14 +69,14 @@
       
         <!-- Modal Header -->
         <div class="modal-header">
-          <h4 class="modal-title">CheckOut</h4>
+          <h4 class="modal-title">Checkout</h4>
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
         
         <!-- Modal body -->
         <div class="modal-body">
          <div class="form-group">
-                      		<label class="text-info" for="Date Time">CheckOut Date & Time</label>
+                      		<label class="text-info" for="Date Time">Enter Checkout Date & Time</label>
                       		<input type="datetime-local" id="CheckIn Date & Time" name="CheckIn Date & Time" class="form-control">
                       		</div>
                            
@@ -84,7 +84,7 @@
         
         <!-- Modal footer -->
         <div class="modal-footer">
-          <button type="button" class="btn btn-info role" data-dismiss="modal">Confirm CheckOut</button>
+          <button type="button" class="btn btn-info role" data-dismiss="modal">Confirm Checkout</button>
         </div>
         
       </div>
@@ -108,7 +108,7 @@
 
 
  <div class="center">
- <a href="file:///C:/Users/lenovo/workspace/SmartParking/WebContent/NewParking.html" class="btn btn-primary">Add New Parking</a>
+ <a href="NewParking.html" class="btn btn-primary">Add New Parking</a>
 </div>
 
      <div align="center"><footer class="center">
