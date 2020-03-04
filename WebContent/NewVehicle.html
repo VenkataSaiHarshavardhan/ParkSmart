@@ -9,26 +9,38 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <title>NewVehicle - Park Smart</title>
+    <title>New Vehicle-Park Smart</title>
+     
+  
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>New Vehicle-Park Smart</title>
+     
+  
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <style>
 .center {
+
   margin: auto;
-  width: 30%;
+  width: 100%;
  text-align:center;
-  padding: 10px;
+ text-decoration:none;
+  padding: 30px;
 }
 </style>
   </head>
  <body>
-
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
       <!-- <a class="my-0 mr-md-auto font-weight-normal">Park Smart</a> -->
-            <a class="my-0 mr-md-auto font-weight-normal" href="file:///C:/Users/lenovo/workspace/SmartParking/WebContent/Home.html">Park Smart</a>
-      
-      <a class="btn btn-outline-primary" href="file:///C:/Users/lenovo/workspace/SmartParking/WebContent/Login.html">Logout</a>
+            <a class="my-0 mr-md-auto font-weight-normal" href="Home.html">Park Smart</a>
+      <a class="btn btn-outline-primary" href="Login.html">Logout</a>
     </div>
-
     <div class="center">
-        
                     <div>
                         <form id="login-form" class="form" action="" method="post">
                             <h3 class="text-center text-info">ADD NEW VEHICLE</h3>
@@ -43,7 +55,6 @@
 							    <option>Four Wheeler</option>
 							    </select>
                       		</div>
-                         
                             <div class="form-group">
                                 <label for="VehicleModel" class="text-info">Enter Vehicle Model Name</label><br>
                                 <input type="text" name="VehicleModel" id="VehicleModel" placeholder="e.g : ThunderBird 350X" class="form-control">
@@ -52,20 +63,52 @@
   								<label for="RegistrationDate" class="text-info">Enter Registration Date</label>
  								<input type="date" id="RegistrationDate" name="RegistrationDate"  class="form-control">
  						 	</div>
- 						 	
  						 	<div class="button" align="left">
-                            <a type="button" href="file:///C:/Users/lenovo/workspace/SmartParking/WebContent/Vehicle.html" class="button left btn btn-danger" "button">Cancel</a>
+                            <a type="button" href="Vehicle.html" class="button left btn btn-danger" "button">Cancel</a>
                            </div>
                             <div class="button" align="left">
                                <!--  <input type="submit" name="submit" class="btn btn-info btn-md" value="ADD"> -->
-                                 <a href="file:///C:/Users/lenovo/workspace/SmartParking/WebContent/Vehicle.html" class="btn btn-info role" "button">ADD</a> 
+                                 <a href="Vehicle.html" class="btn btn-info role" "button">ADD</a> 
                             </div>
-                            
                         </form>
                     </div>
                 </div>
-
       <div align="center"><footer class="center">
+ 						 	</div>
+                           <div class="form-group">
+  <div  align="left" class="buttonleft">
+  <button type="button" class="button left btn btn-danger" data-toggle="modal" data-target="#myModal">Cancel</button>
+  <div class="nav navbar-nav navbar-right">
+     <a type="submit"  href="Vehicle.html" class="btn btn-info role">ADD</a>
+</div>
+</div>
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <p>Do you want to cancel this page.</p>
+        </div>
+        <div class="modal-footer">
+        <div class="form-group">
+        <div align="left" class="form-group">
+          <!-- <button type="button" class="btn btn-default" data-dismiss="modal"></button> -->
+          <a type="button" href="Vehicle.html" class="button left btn btn-danger" >Yes</a>
+          
+          <button type="button" class="btn btn-default" data-dismiss="modal">No</button>
+        </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </form>
+  </div>
+  </div>
+  </div>
+    <div align="center"><footer class="center">
         <div class="center">
           <div class="col-12 col-md">
           <small class="d-block mb-3 text-muted">@copyright 2020</small>
@@ -73,7 +116,6 @@
           </div>
           </footer>
           </div>
-    
 </body>
 
 </html>
